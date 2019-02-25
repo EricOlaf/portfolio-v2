@@ -1,0 +1,26 @@
+.Nav {
+  height: 4rem;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(42, 40, 41);
+  color: rgb(211, 211, 211);
+  font-family: "Raleway";
+}
+
+.NavButton {
+  background-color: #3f3f3f;
+  border-radius: 5px;
+  border: none;
+  height: 2rem;
+  width: 3rem;
+  color: rgb(211, 211, 211);
+  font-family: "Open Sans";
+}
+
+.noShow {
+  display: none;
+}
