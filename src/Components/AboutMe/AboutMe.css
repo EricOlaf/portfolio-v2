@@ -1,0 +1,40 @@
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  width: 80%;
+  background-color: #3f3f3f;
+  color: rgb(211, 211, 211);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+.aboutPicMe {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.aboutPageTextAll {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.aboutPageTitle {
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  /* text-decoration: underline;
+    text-decoration-color: white; */
+
+  border-bottom: solid rgb(211, 211, 211) 0.8px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.aboutPageText {
+  font-family: "Raleway";
+}
