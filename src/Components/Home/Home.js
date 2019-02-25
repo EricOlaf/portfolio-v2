@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Home.css";
 
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -25,14 +26,16 @@ class Home extends Component {
   render() {
     let { navLinks } = this.state;
     return (
-      <div>
+      <div className="homeAll">
         <NavBar navHandler={this.navHandler} navLinks={navLinks} />
         <Header />
-        <div>
-          <Skills />
-          <Experience />
-          <RecentWork />
-          <AboutMe />
+        <div className="containerOne">
+          <div className="containerTwo">
+            <Skills />
+            <Experience />
+            <RecentWork />
+            <AboutMe />
+          </div>
         </div>
         <Footer />
       </div>

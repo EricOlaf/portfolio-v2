@@ -1,0 +1,57 @@
+.sitesTitle {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.two {
+  flex-direction: column-reverse;
+}
+.siteExp {
+  min-width: 10rem;
+  max-width: 15rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: "Raleway";
+}
+
+.siteName {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  border-bottom-style: solid;
+  border-block-start-color: #3f3f3f;
+  border-bottom-width: 1.5px;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+/* .seone {
+  
+} */
+
+.sitePic {
+  object-fit: scale-down;
+  max-width: 15rem;
+  min-width: 7rem;
+  max-height: 15rem;
+  min-height: 7rem;
+  border: none;
+}
+.repo {
+  margin-top: 1rem;
+}
+
+.repo a {
+  text-decoration: none;
+  color: rgb(247, 148, 29);
+}

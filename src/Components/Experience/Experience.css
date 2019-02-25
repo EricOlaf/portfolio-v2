@@ -1,0 +1,63 @@
+.experience {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* background-color: rgb(42, 40, 41); */
+}
+.insideRes {
+  width: 80vw;
+  max-width: 900px;
+  background-color: #3f3f3f;
+
+  /* padding: 2rem; */
+  color: rgb(211, 211, 211);
+}
+
+.expTitle {
+  text-align: center;
+  margin: 2rem 0rem;
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  /* text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.7rem;
+  letter-spacing: 4.3px;
+  margin-bottom: 3rem; */
+}
+.expBoth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+.devMtnPic {
+  display: none;
+}
+/* .devMtnPic {
+  height: 120px;
+  margin: 20px;
+  object-fit: contain;
+  border-radius: 50%;
+  opacity: 0.93;
+} */
+.expTextAll {
+  margin-bottom: 1rem;
+  width: 45vw;
+}
+.expEachTitle {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  border-bottom-color: rgb(237, 231, 226);
+  border-bottom-width: 1px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.expTextInfo {
+  font-family: "Raleway";
+  font-size: 0.93rem;
+}

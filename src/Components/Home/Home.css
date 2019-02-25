@@ -1,0 +1,19 @@
+.homeAll .containerOne {
+  position: relative;
+  width: 100%;
+  background-color: rgb(42, 39, 40);
+  z-index: 10;
+  margin: 0;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.homeAll .containerTwo {
+  position: relative;
+  margin-top: 1rem;
+  width: 85%;
+  background-color: rgb(249, 248, 247);
+  z-index: 16;
+  border-radius: 0.3rem;
+  box-shadow: 10px 10px 10px black;
+}
