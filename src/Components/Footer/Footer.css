@@ -44,8 +44,8 @@
 }
 
 .picEric {
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
@@ -60,9 +60,13 @@
 }
 .contAb {
   font-family: "Raleway";
-  width: 30vw;
-  font-size: 1.2rem;
+  width: 40vw;
+  max-width: 30rem;
+  font-size: 0.97rem;
   margin-bottom: 2rem;
+  padding: 0.5rem;
+  background-color: #3f3f3f;
+  border-radius: 5px;
 }
 .cv {
   color: rgb(211, 211, 211);
@@ -80,8 +84,8 @@
 }
 
 .socIcon {
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   background-color: rgb(87, 91, 102);
   border-radius: 50%;
 }
@@ -101,23 +105,29 @@
   background-color: #3f3f3f;
   border: none;
   border-radius: 5px;
-  margin-top: 1rem;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 800px) {
   .contTitle {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     letter-spacing: 2.3px;
   }
   .contAb {
-    font-size: 0.88rem;
+    font-size: 1.15rem;
+    padding: 0.7rem;
   }
   .picEric {
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
   }
   .socIcon {
-    height: 3rem;
-    width: 3rem;
+    height: 5rem;
+    width: 5rem;
+  }
+  .footButt {
+    width: 11rem;
+    height: 4rem;
+    min-height: 4rem;
+    font-size: 1.1rem;
   }
 }

@@ -22,8 +22,9 @@ function Footer(props) {
           <div className="contAb">
             <p>
               I'm a Full Stack developer with a thirst for knowledge and
-              oportunities to grow.
+              opportunities to grow.
             </p>
+            <br />
             <a className="cv" href={Pdf} target="_blank">
               Download CV
             </a>

@@ -1,3 +1,7 @@
+.recentwork {
+  color: #3f3f3f;
+}
+
 .sitesTitle {
   text-align: center;
   margin-top: 3rem;
@@ -13,9 +17,7 @@
   align-items: center;
   margin: 2rem 0;
 }
-.two {
-  flex-direction: column-reverse;
-}
+
 .siteExp {
   min-width: 10rem;
   max-width: 15rem;
@@ -30,14 +32,11 @@
   letter-spacing: 2px;
   border-bottom: solid;
   border-bottom-style: solid;
-  border-block-start-color: #3f3f3f;
-  border-bottom-width: 1.5px;
+  border-color: #3f3f3f;
+  border-bottom-width: 1px;
   padding-bottom: 0.8rem;
   margin-bottom: 0.8rem;
 }
-/* .seone {
-  
-} */
 
 .sitePic {
   object-fit: scale-down;
@@ -54,4 +53,50 @@
 .repo a {
   text-decoration: none;
   color: rgb(247, 148, 29);
+}
+.two {
+  flex-direction: column-reverse;
+  padding: 2rem 0;
+}
+@media (min-width: 620px) {
+  .site {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  .siteExp {
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .sitesTitle {
+    font-size: 1.7rem;
+    letter-spacing: 2.3px;
+    margin-bottom: 3rem;
+  }
+  .site {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  .siteExp {
+    margin: 0 2rem;
+  }
+  .siteName {
+    font-size: 1.2rem;
+    letter-spacing: 2.15px;
+  }
+  .sitePic {
+    object-fit: scale-down;
+    max-width: 25rem;
+    min-width: 10rem;
+    max-height: 25rem;
+    min-height: 10rem;
+    border: none;
+  }
 }

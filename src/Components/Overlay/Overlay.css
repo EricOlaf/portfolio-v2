@@ -27,8 +27,9 @@
   display: flex;
   position: relative;
   height: 50%;
-  width: 90%;
-  max-width: 30rem;
+  max-height: 20rem;
+  width: 95%;
+  max-width: 25rem;
   background-color: rgb(211, 211, 211);
   padding: 2rem;
 }
@@ -77,7 +78,7 @@
 .overlayLinksContainer {
   position: absolute;
   bottom: 10px;
-  left: 32%;
+  left: 34%;
 }
 .overlayImg {
   height: 30px;

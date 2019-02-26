@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App {
+  background-color: rgb(42, 39, 40);
+}
 
 /* button {
   height: 80px;
@@ -16,6 +19,7 @@
   border: none;
   border-radius: 5px;
 }
+*/
 
 button:hover {
   cursor: pointer;
@@ -26,17 +30,3 @@ button:hover {
 button:focus {
   outline: none;
 }
-
-.App {
-  color: #3f3f3f;
-}
-
-@media (max-width: 500px) {
-  button {
-    height: 2rem;
-
-    width: 150px;
-    font-size: 0.8rem;
-    letter-spacing: 0.8px;
-  }
-} */

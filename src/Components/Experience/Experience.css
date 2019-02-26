@@ -15,7 +15,7 @@
 
 .expTitle {
   text-align: center;
-  margin: 2rem 0rem;
+  margin: 2.5rem 0rem;
   font-family: "Open Sans";
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -35,16 +35,11 @@
 .devMtnPic {
   display: none;
 }
-/* .devMtnPic {
-  height: 120px;
-  margin: 20px;
-  object-fit: contain;
-  border-radius: 50%;
-  opacity: 0.93;
-} */
+
 .expTextAll {
   margin-bottom: 1rem;
   width: 45vw;
+  max-width: 33rem;
 }
 .expEachTitle {
   font-family: "Open Sans";
@@ -60,4 +55,30 @@
 .expTextInfo {
   font-family: "Raleway";
   font-size: 0.93rem;
+}
+
+@media (min-width: 800px) {
+  .insideRes {
+    padding-bottom: 2rem;
+  }
+  .devMtnPic {
+    display: flex;
+    height: 5rem;
+    margin: 0 2rem;
+    object-fit: contain;
+    border-radius: 50%;
+    opacity: 0.93;
+  }
+  .expTitle {
+    font-size: 1.7rem;
+    letter-spacing: 2.3px;
+    margin: 3rem 0rem;
+  }
+  .expEachTitle {
+    font-size: 1.2rem;
+    letter-spacing: 2.15px;
+  }
+  .expTextInfo {
+    font-size: 1rem;
+  }
 }
