@@ -14,6 +14,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   width: 90%;
+  max-width: 75rem;
   background-color: rgb(249, 248, 247);
   z-index: 16;
   border-radius: 0.3rem;
