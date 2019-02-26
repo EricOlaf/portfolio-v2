@@ -3,7 +3,7 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="aboutPage">
+    <div className="aboutme">
       <img
         className="aboutPicMe"
         src="https://res.cloudinary.com/rawtrails801/image/upload/v1549578604/UNADJUSTEDNONRAW_thumb_1720.jpg"

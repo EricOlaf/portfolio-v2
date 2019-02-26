@@ -3,7 +3,7 @@ import "./RecentWork.css";
 
 function RecentWork() {
   return (
-    <div>
+    <div className="recentwork">
       <div className="sitesTitle">RECENT WORK</div>
       <div className="site">
         <div className="siteExp seone">

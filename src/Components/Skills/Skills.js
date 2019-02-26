@@ -3,7 +3,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="skillsAll">
+    <div className="skills">
       <div className="techTitleAll">
         <div>TECH/SKILLS</div>
       </div>
