@@ -8,27 +8,41 @@ import Experience from "../Experience/Experience";
 import RecentWork from "../RecentWork/RecentWork";
 import AboutMe from "../AboutMe/AboutMe";
 import NavBar from "../NavBar/NavBar";
+import Overlay from "../Overlay/Overlay";
 
 class Home extends Component {
   constructor() {
     super();
     this.state = {
-      navLinks: "noShow"
+      navLinks: "noShow",
+      contact: "noShowNav"
     };
   }
 
   navHandler = () => {
     let { navLinks } = this.state;
-    navLinks === "noShow"
-      ? this.setState({ navLinks: "show" })
-      : this.setState({ navLinks: "noShow" });
+    navLinks === "noShowNav"
+      ? this.setState({ navLinks: "showNav" })
+      : this.setState({ navLinks: "noShowNav" });
+  };
+  contactHandlerOn = () => {
+    this.setState({ contact: "show" });
+  };
+
+  contactHandlerOff = () => {
+    this.setState({ contact: "noShow" });
   };
   render() {
     let { navLinks } = this.state;
     return (
       <div className="homeAll">
-        <NavBar navHandler={this.navHandler} navLinks={navLinks} />
-        <Header />
+        <Overlay off={this.contactHandlerOff} contact={this.state.contact} />
+        <NavBar
+          on={this.contactHandlerOn}
+          navHandler={this.navHandler}
+          navLinks={navLinks}
+        />
+        <Header on={this.contactHandlerOn} />
         <div className="containerOne">
           <div className="containerTwo">
             <Skills />
@@ -37,7 +51,7 @@ class Home extends Component {
             <AboutMe />
           </div>
         </div>
-        <Footer />
+        <Footer on={this.contactHandlerOn} />
       </div>
     );
   }

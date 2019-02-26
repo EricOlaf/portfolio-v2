@@ -16,11 +16,18 @@
   border-radius: 5px;
   border: none;
   height: 2rem;
-  width: 3rem;
+  line-height: 2rem;
+  width: 5rem;
   color: rgb(211, 211, 211);
   font-family: "Open Sans";
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
 }
 
-.noShow {
+.noShowNav {
   display: none;
+}
+
+.showNav {
 }

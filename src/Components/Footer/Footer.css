@@ -1,0 +1,122 @@
+.contAll {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 30rem;
+  z-index: 3;
+}
+.contPic {
+  position: relative;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 1;
+  overflow: initial;
+}
+
+.contText {
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  background: -webkit-linear-gradient(rgb(42, 40, 41), transparent);
+  z-index: 1;
+  color: rgb(211, 211, 211);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contLeft,
+.contRight {
+  width: 50vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem;
+  margin-top: 2rem;
+}
+.contRight {
+  margin-top: 6rem;
+}
+
+.picEric {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.contTitle {
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.contAb {
+  font-family: "Raleway";
+  width: 30vw;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.cv {
+  color: rgb(211, 211, 211);
+}
+.socMed {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.socMed a {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.socIcon {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(87, 91, 102);
+  border-radius: 50%;
+}
+
+.socIcon:hover {
+  background: -webkit-linear-gradient(rgb(59, 57, 66), rgb(87, 91, 102));
+}
+
+.footButt {
+  height: 3rem;
+  min-height: 3rem;
+  width: 7rem;
+  font-family: "Open Sans";
+  letter-spacing: 1.1px;
+  color: rgb(211, 211, 211);
+  background-color: #3f3f3f;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 500px) {
+  .contTitle {
+    font-size: 1.2rem;
+    letter-spacing: 2.3px;
+  }
+  .contAb {
+    font-size: 0.88rem;
+  }
+  .picEric {
+    width: 7rem;
+    height: 7rem;
+  }
+  .socIcon {
+    height: 3rem;
+    width: 3rem;
+  }
+}

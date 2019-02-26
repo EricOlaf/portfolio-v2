@@ -40,13 +40,13 @@
 }
 
 .header button {
-  height: 2rem;
-  width: 7rem;
+  height: 4rem;
+  width: 10rem;
   font-family: "Open Sans";
   letter-spacing: 1.1px;
   color: rgb(211, 211, 211);
   background-color: #3f3f3f;
   border: none;
   border-radius: 5px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }

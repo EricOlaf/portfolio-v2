@@ -4,16 +4,23 @@ import "./NavBar.css";
 function NavBar(props) {
   return (
     <div className="Nav">
-      <div id="NavLeft">Need a Developer?</div>
+      <div
+        id="NavLeft"
+        onClick={() => {
+          props.on();
+        }}
+      >
+        Need a Developer?
+      </div>
       <div id="NavRight">
-        <button
+        <div
           className="NavButton"
           onClick={() => {
             props.navHandler();
           }}
         >
           MENU
-        </button>
+        </div>
         <select className={props.navLinks}>
           <option id="navskills">SKILLS</option>
           <option id="navExperience">EXPERIENCE</option>

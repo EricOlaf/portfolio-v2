@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-function Header() {
+function Header(props) {
   return (
     <div className="header">
       <img
@@ -12,7 +12,13 @@ function Header() {
       <div id="text">
         <div className="title">ERIC OLAVESON</div>
         <div className="text">I design, build and maintain websites</div>
-        <button>CONTACT ME</button>
+        <button
+          onClick={() => {
+            props.on();
+          }}
+        >
+          CONTACT ME
+        </button>
       </div>
     </div>
   );
