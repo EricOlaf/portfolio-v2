@@ -74,6 +74,7 @@ function NavBar(props) {
         </div>
         <ul className={props.navLinks}>
           <Link
+            className="sideLink"
             onClick={() => {
               props.top();
               props.navHandler();
@@ -85,6 +86,7 @@ function NavBar(props) {
             HOME
           </Link>
           <Link
+            className="sideLink"
             to="skills"
             onClick={() => {
               props.navHandler();
@@ -96,6 +98,7 @@ function NavBar(props) {
             SKILLS
           </Link>{" "}
           <Link
+            className="sideLink"
             to="experience"
             onClick={() => {
               props.navHandler();
@@ -107,6 +110,7 @@ function NavBar(props) {
             EXPERIENCE
           </Link>{" "}
           <Link
+            className="sideLink"
             to="recentwork"
             onClick={() => {
               props.navHandler();
@@ -118,6 +122,7 @@ function NavBar(props) {
             RECENT WORK
           </Link>
           <Link
+            className="sideLink"
             to="aboutme"
             onClick={() => {
               props.navHandler();
