@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 // import ScrollableAnchor from "react-scrollable-anchor";
 
 import Header from "../Header/Header";
@@ -53,10 +53,10 @@ class Home extends Component {
         <Header on={this.contactHandlerOn} id={"top"} />
         <div className="containerOne">
           <div className="containerTwo">
-            <Skills id={"skills"} />
-            <Experience id={"experience"} />
-            <RecentWork id={"recentwork"} />
-            <AboutMe id={"aboutme"} />
+            <Skills id="skills" />
+            <Experience id="experience" />
+            <RecentWork id="recentwork" />
+            <AboutMe id="aboutme" />
           </div>
         </div>
         <Footer on={this.contactHandlerOn} />
