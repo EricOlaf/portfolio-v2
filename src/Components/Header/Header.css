@@ -43,7 +43,8 @@
   height: 4rem;
   width: 10rem;
   font-family: "Open Sans";
-  letter-spacing: 1.1px;
+  font-size: 1rem;
+  letter-spacing: 0.17rem;
   color: rgb(211, 211, 211);
   background-color: #3f3f3f;
   border: none;

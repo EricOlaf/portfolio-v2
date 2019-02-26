@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 function NavBar(props) {
   return (
     <div className="Nav">
@@ -21,12 +23,24 @@ function NavBar(props) {
         >
           MENU
         </div>
-        <select className={props.navLinks}>
-          <option id="navskills">SKILLS</option>
-          <option id="navExperience">EXPERIENCE</option>
-          <option id="navRecentWork">RECENT WORK</option>
-          <option id="navAboutMe">ABOUT ME</option>
-        </select>
+        <ul className={props.navLinks}>
+          <Link
+            onClick={() => {
+              props.top();
+            }}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            HOME
+          </Link>
+          <Link to="skills" smooth={true} offset={-70} duration={500}>
+            SKILLS
+          </Link>
+          <Link to="experience">EXPERIENCE</Link>{" "}
+          <Link to="recentwork">RECENT WORK</Link>
+          <Link to="aboutme">ABOUT ME</Link>
+        </ul>
       </div>
     </div>
   );
