@@ -15,7 +15,7 @@
 
 .expTitle {
   text-align: center;
-  margin: 2.5rem 0rem;
+  margin: 3rem 0rem;
   font-family: "Open Sans";
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -30,14 +30,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem;
+  margin: 3rem;
 }
 .devMtnPic {
   display: none;
 }
 
 .expTextAll {
-  margin-bottom: 1rem;
   width: 45vw;
   max-width: 33rem;
 }
@@ -72,7 +71,7 @@
   .expTitle {
     font-size: 1.7rem;
     letter-spacing: 2.3px;
-    margin: 3rem 0rem;
+    margin: 4rem 0rem;
   }
   .expEachTitle {
     font-size: 1.2rem;

@@ -13,16 +13,15 @@ function AboutMe() {
         <div className="aboutPageTitle">ABOUT ME</div>
         <div className="aboutPageText">
           <p>
-            Urged by a friend who programs I started coding for fun and found a
-            new passion. I shortly thereafter decided on a career change from
-            sales and quickly enrolled at DevMountain. I love being extremely
-            engaged in the whole development process and seeing the asthetic,
-            functional outcome.
+            Urged by a friend who programs, I started coding for fun and found a
+            new passion. Shortly after, I decided to make a career shift and
+            enrolled at DevMountain. I love being engaged in the whole
+            development process and seeing an asthetic, functional outcome.
           </p>
           <br />
           <p>
-            When I'm not coding I like to spend time with my wife and friends in
-            the outdoors, playing sports, and eating good food.
+            When I'm not coding I enjoy spending time with my wife and friends
+            in the outdoors, playing sports, and eating good food.
           </p>
         </div>
       </div>

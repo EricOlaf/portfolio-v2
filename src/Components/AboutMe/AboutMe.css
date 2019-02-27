@@ -8,7 +8,7 @@
   background-color: #3f3f3f;
   color: rgb(211, 211, 211);
   padding: 2rem 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .aboutPicMe {
   width: 10rem;
@@ -43,7 +43,7 @@
 @media (min-width: 800px) {
   .aboutme {
     flex-direction: row-reverse;
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     max-width: 60rem;
   }
   .aboutPicMe {

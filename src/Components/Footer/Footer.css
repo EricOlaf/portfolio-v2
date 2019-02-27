@@ -131,3 +131,9 @@
     font-size: 1.1rem;
   }
 }
+@media (min-width: 1000px) {
+  .picEric {
+    width: 12rem;
+    height: 12rem;
+  }
+}
