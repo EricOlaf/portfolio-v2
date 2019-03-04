@@ -9,6 +9,17 @@
   background-color: rgb(42, 40, 41);
   color: rgb(211, 211, 211);
   font-family: "Raleway";
+  animation-name: navAnimation;
+  animation-duration: 10s;
+}
+
+@keyframes navAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .NavButton {

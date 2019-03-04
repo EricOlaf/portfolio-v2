@@ -21,8 +21,11 @@
   position: absolute;
   z-index: 2;
   margin-top: 10vh;
-  width: 70vw;
+  width: 100vw;
+  margin-left: 13vw;
   color: rgb(211, 211, 211);
+  animation-name: titleAnimation;
+  animation-duration: 3s;
 }
 
 .header .title {
@@ -30,6 +33,21 @@
   font-size: 2rem;
   letter-spacing: 2.5px;
   font-family: "Open Sans";
+}
+
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+    left: -20vw;
+  }
+  50% {
+    opacity: 0.5;
+    left: 20vw;
+  }
+  100% {
+    opacity: 1;
+    left: 100px;
+  }
 }
 
 .header .text {
@@ -54,10 +72,22 @@
 
 .header button:hover {
   cursor: pointer;
-  border: rgb(211, 211, 211);
-  border-style: solid;
-  border-width: 1px;
+  border: rgb(211, 211, 211) solid 1px;
+  animation-name: buttonAnimation;
+  animation-duration: 1.5s;
 }
+@keyframes buttonAnimation {
+  0% {
+    border: rgb(63, 63, 63) solid 1px;
+  }
+  50% {
+    border: lightgrey solid 1px;
+  }
+  100% {
+    border: rgb(211, 211, 211) solid 1px;
+  }
+}
+
 .header button:focus {
   outline: none;
 }
