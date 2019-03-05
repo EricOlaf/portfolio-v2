@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  justify-content: center;
   width: 100vw;
   height: 100vh;
   background-color: rgb(42, 40, 41);
@@ -13,16 +12,13 @@
   height: 100%;
   opacity: 0.8;
   object-fit: cover;
-  text-anchor: middle;
   overflow: hidden;
 }
 
 .header > #text {
-  position: absolute;
+  position: relative;
   z-index: 2;
   margin-top: 10vh;
-  width: 100vw;
-  margin-left: 15vw;
   color: rgb(211, 211, 211);
   animation-name: headerTitleAnimation;
   animation-duration: 5s;
@@ -32,6 +28,7 @@
   0% {
     opacity: 0;
     left: -60vw;
+    color: rgb(247, 148, 29);
   }
   50% {
     opacity: 0.8;
@@ -40,6 +37,7 @@
   100% {
     opacity: 1;
     left: 0vw;
+    color: rgb(211, 211, 211);
   }
 }
 
@@ -73,6 +71,11 @@
 .header button:hover {
   cursor: pointer;
   border: rgb(211, 211, 211) solid 1px;
+}
+@media (min-width: 500px) {
+  .header > #text {
+    margin-left: 15vw;
+  }
 }
 
 @media (min-width: 800px) {

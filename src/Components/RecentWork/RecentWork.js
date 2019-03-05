@@ -9,8 +9,8 @@ function RecentWork() {
         <div className="siteExp seone">
           <div className="siteName">RAW TRAILS</div>
           <div className="infoOnMySite">
-            A 'SERN' full-stack website for adventure seekers to find and
-            scheule the perfect guided outdoor vacation.
+            A full-stack SERN website for adventure seekers to find and scheule
+            the perfect guided outdoor vacation.
           </div>
           <div className="repo infoOnMySite">
             View GitHub Repo{" "}

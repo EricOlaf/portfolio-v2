@@ -10,7 +10,7 @@
   color: rgb(211, 211, 211);
   font-family: "Raleway";
   animation-name: navAnimation;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
 }
 
 #navLeft:hover {
@@ -20,12 +20,18 @@
 
 @keyframes navAnimation {
   0% {
-    opacity: 0.5;
+    opacity: 0;
     top: -5rem;
+    color: rgb(247, 148, 29);
+    background-color: rgb(211, 211, 211);
+  }
+  50% {
+    opacity: 1;
   }
   100% {
-    opacity: 1;
     top: 0;
+    color: rgb(211, 211, 211);
+    background-color: rgb(42, 39, 39);
   }
 }
 

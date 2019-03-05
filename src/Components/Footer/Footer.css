@@ -5,6 +5,7 @@
   width: 100vw;
   height: 30rem;
   z-index: 3;
+  top: -1px;
 }
 .contPic {
   position: relative;
