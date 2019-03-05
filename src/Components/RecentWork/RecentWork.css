@@ -3,12 +3,64 @@
 }
 
 .sitesTitle {
+  width: 15rem;
   text-align: center;
-  margin-top: 5rem;
-  padding-bottom: 2rem;
+  margin: 5rem auto;
+  padding-bottom: 1rem;
   font-family: "Open Sans";
   font-size: 1.2rem;
   letter-spacing: 2px;
+  border-bottom: 1px solid rgb(249, 248, 247);
+}
+
+.sitesTitle:hover {
+  border-bottom: rgb(249, 248, 247) solid 1px;
+  animation-name: sitestitleAnimation;
+  animation-duration: 5s;
+  cursor: pointer;
+}
+
+@keyframes sitestitleAnimation {
+  0% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+  7% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  14% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  20% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  29% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  38% {
+    border-bottom: rgb(128, 112, 90) solid 1px;
+  }
+  47% {
+    border-bottom: rgb(63, 63, 63) solid 1px;
+  }
+
+  56% {
+    border-bottom: rgb(126, 111, 89) solid 1px;
+  }
+  65% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  74% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  83% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  92% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  100% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
 }
 
 .site {
@@ -39,6 +91,55 @@
   margin-bottom: 0.8rem;
 }
 
+.siteName:hover {
+  border-bottom: rgb(63, 63, 63) solid 1px;
+  animation-name: sitenameAnimation;
+  animation-duration: 5s;
+  cursor: pointer;
+}
+
+@keyframes sitenameAnimation {
+  0% {
+    border-bottom: rgb(126, 111, 89) solid 1px;
+  }
+  7% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  14% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  20% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  29% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  38% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+  47% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+  56% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  65% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  74% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  83% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  92% {
+    border-bottom: rgb(128, 112, 90) solid 1px;
+  }
+  100% {
+    border-bottom: rgb(63, 63, 63) solid 1px;
+  }
+}
+
 .sitePic {
   object-fit: scale-down;
   max-width: 18rem;
@@ -46,14 +147,72 @@
   max-height: 18rem;
   min-height: 7rem;
   border: none;
+  border: rgb(249, 248, 247) solid 1px;
 }
+
+.sitePic:hover {
+  border: rgb(249, 248, 247) solid 1px;
+  animation-name: sitepicAnimation;
+  animation-duration: 5s;
+  cursor: pointer;
+}
+
+@keyframes sitepicAnimation {
+  0% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+  7% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  14% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  20% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  29% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  38% {
+    border-bottom: rgb(128, 112, 90) solid 1px;
+  }
+  47% {
+    border-bottom: rgb(63, 63, 63) solid 1px;
+  }
+
+  56% {
+    border-bottom: rgb(126, 111, 89) solid 1px;
+  }
+  65% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  74% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  83% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  92% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  100% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+}
+
 .repo {
   margin-top: 1rem;
 }
 
 .repo a {
-  text-decoration: none;
   color: rgb(247, 148, 29);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.repo a:hover {
+  font-weight: bolder;
+  border-bottom: rgb(247, 148, 29) solid 1.2px;
 }
 .two {
   flex-direction: column-reverse;

@@ -15,16 +15,18 @@
 
 .expTitle {
   text-align: center;
-  margin: 3rem 0rem;
+  margin: 3rem auto;
   font-family: "Open Sans";
   font-size: 1.2rem;
   letter-spacing: 2px;
+
   /* text-align: center;
   font-family: "Open Sans";
   font-size: 1.7rem;
   letter-spacing: 4.3px;
   margin-bottom: 3rem; */
 }
+
 .expBoth {
   display: flex;
   flex-direction: row;
@@ -36,6 +38,55 @@
   display: none;
 }
 
+.devMtnPic:hover {
+  animation-name: dmAnimation;
+  animation-duration: 5s;
+  border: solid rgb(237, 231, 226) 3px;
+}
+
+@keyframes dmAnimation {
+  0% {
+    border: rgb(249, 248, 247) solid 3px;
+  }
+  7% {
+    border: rgb(255, 216, 143) solid 3px;
+  }
+  14% {
+    border: rgb(255, 166, 0) solid 3px;
+  }
+  20% {
+    border: rgb(205, 145, 35) solid 3px;
+  }
+  29% {
+    border: rgb(174, 142, 82) solid 3px;
+  }
+  38% {
+    border: rgb(128, 112, 90) solid 3px;
+  }
+  47% {
+    border: rgb(63, 63, 63) solid 3px;
+  }
+
+  56% {
+    border: rgb(126, 111, 89) solid 3px;
+  }
+  65% {
+    border: rgb(174, 142, 82) solid 3px;
+  }
+  74% {
+    border: rgb(205, 145, 35) solid 3px;
+  }
+  83% {
+    border: rgb(255, 166, 0) solid 3px;
+  }
+  92% {
+    border: rgb(255, 216, 143) solid 3px;
+  }
+  100% {
+    border: rgb(249, 248, 247) solid 3px;
+  }
+}
+
 .expTextAll {
   width: 45vw;
   max-width: 33rem;
@@ -44,11 +95,58 @@
   font-family: "Open Sans";
   font-size: 1rem;
   letter-spacing: 2px;
-  border-bottom: solid;
-  border-bottom-color: rgb(237, 231, 226);
-  border-bottom-width: 1px;
+  border-bottom: solid rgb(237, 231, 226) 1px;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.expEachTitle:hover {
+  animation-name: exptitleAnimation;
+  cursor: pointer;
+  animation-duration: 10s;
+  border-bottom: solid rgb(237, 231, 226) 1px;
+}
+
+@keyframes exptitleAnimation {
+  0% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+  7% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  14% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  20% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  29% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  38% {
+    border-bottom: rgb(128, 112, 90) solid 1px;
+  }
+  47% {
+    border-bottom: rgb(63, 63, 63) solid 1px;
+  }
+
+  56% {
+    border-bottom: rgb(126, 111, 89) solid 1px;
+  }
+  65% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  74% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  83% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  92% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  100% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
 }
 
 .expTextInfo {

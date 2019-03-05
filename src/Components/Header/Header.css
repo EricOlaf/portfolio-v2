@@ -22,10 +22,25 @@
   z-index: 2;
   margin-top: 10vh;
   width: 100vw;
-  margin-left: 13vw;
+  margin-left: 15vw;
   color: rgb(211, 211, 211);
-  animation-name: titleAnimation;
-  animation-duration: 3s;
+  animation-name: headerTitleAnimation;
+  animation-duration: 10s;
+}
+
+@keyframes headerTitleAnimation {
+  0% {
+    opacity: 0;
+    left: -60vw;
+  }
+  50% {
+    opacity: 0.8;
+    left: 20vw;
+  }
+  100% {
+    opacity: 1;
+    left: 0vw;
+  }
 }
 
 .header .title {
@@ -33,21 +48,6 @@
   font-size: 2rem;
   letter-spacing: 2.5px;
   font-family: "Open Sans";
-}
-
-@keyframes titleAnimation {
-  0% {
-    opacity: 0;
-    left: -20vw;
-  }
-  50% {
-    opacity: 0.5;
-    left: 20vw;
-  }
-  100% {
-    opacity: 1;
-    left: 100px;
-  }
 }
 
 .header .text {
@@ -73,10 +73,10 @@
 .header button:hover {
   cursor: pointer;
   border: rgb(211, 211, 211) solid 1px;
-  animation-name: buttonAnimation;
+  animation-name: headerbuttonAnimation;
   animation-duration: 1.5s;
 }
-@keyframes buttonAnimation {
+@keyframes headerbuttonAnimation {
   0% {
     border: rgb(63, 63, 63) solid 1px;
   }

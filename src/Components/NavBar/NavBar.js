@@ -7,7 +7,7 @@ function NavBar(props) {
   return (
     <div className="Nav">
       <div
-        id="NavLeft"
+        id="navLeft"
         onClick={() => {
           props.on();
         }}
