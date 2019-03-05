@@ -159,44 +159,40 @@
 
 @keyframes sitepicAnimation {
   0% {
-    border-bottom: rgb(249, 248, 247) solid 1px;
+    border: rgb(249, 248, 247) solid 1px;
   }
-  7% {
-    border-bottom: rgb(255, 216, 143) solid 1px;
+  8% {
+    border: rgb(255, 216, 143) solid 1px;
   }
-  14% {
-    border-bottom: rgb(255, 166, 0) solid 1px;
+  18% {
+    border: rgb(255, 166, 0) solid 1px;
   }
-  20% {
-    border-bottom: rgb(205, 145, 35) solid 1px;
+  28% {
+    border: rgb(205, 145, 35) solid 1px;
   }
-  29% {
-    border-bottom: rgb(174, 142, 82) solid 1px;
+  35% {
+    border: rgb(174, 142, 82) solid 1px;
   }
-  38% {
-    border-bottom: rgb(128, 112, 90) solid 1px;
+  40% {
+    border: rgb(128, 112, 90) solid 1px;
   }
   47% {
-    border-bottom: rgb(63, 63, 63) solid 1px;
+    border: rgb(63, 63, 63) solid 1px;
   }
-
-  56% {
-    border-bottom: rgb(126, 111, 89) solid 1px;
+  55% {
+    border: rgb(174, 142, 82) solid 1px;
   }
-  65% {
-    border-bottom: rgb(174, 142, 82) solid 1px;
+  70% {
+    border: rgb(205, 145, 35) solid 1px;
   }
-  74% {
-    border-bottom: rgb(205, 145, 35) solid 1px;
-  }
-  83% {
-    border-bottom: rgb(255, 166, 0) solid 1px;
+  77% {
+    border: rgb(255, 166, 0) solid 1px;
   }
   92% {
-    border-bottom: rgb(255, 216, 143) solid 1px;
+    border: rgb(255, 216, 143) solid 1px;
   }
   100% {
-    border-bottom: rgb(249, 248, 247) solid 1px;
+    border: rgb(249, 248, 247) solid 1px;
   }
 }
 

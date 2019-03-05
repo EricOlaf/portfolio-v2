@@ -36,6 +36,53 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+
+.aboutPageTitle:hover {
+  border-bottom: rgb(249, 248, 247) solid 1px;
+  animation-name: aboutpageTitleAnimation;
+  animation-duration: 5s;
+  cursor: pointer;
+}
+
+@keyframes aboutpageTitleAnimation {
+  0% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+  13% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  18% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  28% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  35% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  40% {
+    border-bottom: rgb(128, 112, 90) solid 1px;
+  }
+  47% {
+    border-bottom: rgb(63, 63, 63) solid 1px;
+  }
+  55% {
+    border-bottom: rgb(174, 142, 82) solid 1px;
+  }
+  70% {
+    border-bottom: rgb(205, 145, 35) solid 1px;
+  }
+  77% {
+    border-bottom: rgb(255, 166, 0) solid 1px;
+  }
+  92% {
+    border-bottom: rgb(255, 216, 143) solid 1px;
+  }
+  100% {
+    border-bottom: rgb(249, 248, 247) solid 1px;
+  }
+}
+
 .aboutPageText {
   font-family: "Raleway";
 }

@@ -68,6 +68,10 @@
   background-color: #3f3f3f;
   border-radius: 5px;
 }
+
+.contAb a:hover {
+  font-weight: bold;
+}
 .cv {
   color: rgb(211, 211, 211);
 }
