@@ -41,7 +41,6 @@
   border-bottom: rgb(249, 248, 247) solid 1px;
   animation-name: aboutpageTitleAnimation;
   animation-duration: 5s;
-  cursor: pointer;
 }
 
 @keyframes aboutpageTitleAnimation {
