@@ -52,7 +52,7 @@ function NavBar(props) {
             offset={-70}
             duration={500}
           >
-            RECENT WORK
+            MY APPS
           </Link>
           <Link
             className="lgNavLink"
@@ -119,7 +119,7 @@ function NavBar(props) {
             offset={-70}
             duration={500}
           >
-            RECENT WORK
+            MY APPS
           </Link>
           <Link
             className="sideLink"

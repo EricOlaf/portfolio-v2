@@ -4,7 +4,7 @@ import "./RecentWork.css";
 function RecentWork() {
   return (
     <div className="recentwork">
-      <div className="sitesTitle">RECENT WORK</div>
+      <div className="sitesTitle">MY APPS</div>
       <div className="site">
         <div className="siteExp seone">
           <div className="siteName">RAW TRAILS</div>

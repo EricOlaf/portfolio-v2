@@ -5,7 +5,8 @@
 .sitesTitle {
   width: 15rem;
   text-align: center;
-  margin: 5rem auto;
+  padding-top: 1rem;
+  margin: 3rem auto;
   padding-bottom: 1rem;
   font-family: "Open Sans";
   font-size: 1.2rem;
