@@ -101,7 +101,6 @@
 }
 .expEachTitle:hover {
   animation-name: exptitleAnimation;
-  cursor: pointer;
   animation-duration: 10s;
   border-bottom: solid rgb(237, 231, 226) 1px;
 }

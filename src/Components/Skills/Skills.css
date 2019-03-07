@@ -14,12 +14,12 @@
   font-size: 1.2rem;
   letter-spacing: 2px;
   border-bottom: 1px solid rgb(249, 248, 247);
+  font-weight: normal;
 }
 .techTitleAll:hover {
   border-bottom: rgb(249, 248, 247) solid 1px;
   animation-name: titleAnimation;
   animation-duration: 5s;
-  cursor: pointer;
 }
 
 @keyframes titleAnimation {

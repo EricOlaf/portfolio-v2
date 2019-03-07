@@ -17,22 +17,23 @@
 
 .header > #text {
   position: relative;
+  margin-left: 10vw;
   z-index: 2;
   margin-top: 10vh;
   color: rgb(211, 211, 211);
   animation-name: headerTitleAnimation;
-  animation-duration: 5s;
+  animation-duration: 2s;
 }
 
 @keyframes headerTitleAnimation {
   0% {
     opacity: 0;
-    left: -60vw;
+    left: 0vw;
     color: rgb(247, 148, 29);
   }
   50% {
-    opacity: 0.8;
-    left: 20vw;
+    opacity: 0.3;
+    left: 5vw;
   }
   100% {
     opacity: 1;
@@ -46,9 +47,11 @@
   font-size: 2rem;
   letter-spacing: 2.5px;
   font-family: "Open Sans";
+  font-weight: normal;
+  color: rgb(211, 211, 211);
 }
 
-.header .text {
+.header #headerP {
   font-size: 1rem;
   letter-spacing: 1px;
   font-family: "Raleway";

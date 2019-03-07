@@ -17,7 +17,6 @@
   border-bottom: rgb(249, 248, 247) solid 1px;
   animation-name: sitestitleAnimation;
   animation-duration: 5s;
-  cursor: pointer;
 }
 
 @keyframes sitestitleAnimation {
@@ -95,7 +94,6 @@
   border-bottom: rgb(63, 63, 63) solid 1px;
   animation-name: sitenameAnimation;
   animation-duration: 5s;
-  cursor: pointer;
 }
 
 @keyframes sitenameAnimation {

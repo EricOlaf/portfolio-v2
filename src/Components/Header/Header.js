@@ -10,8 +10,8 @@ function Header(props) {
         alt=""
       />
       <div id="text">
-        <div className="title">ERIC OLAVESON</div>
-        <div className="text">I design, build and maintain websites</div>
+        <h1 className="title">ERIC OLAVESON</h1>
+        <p id="headerP">I design, build and maintain websites</p>
         <button
           onClick={() => {
             props.on();
