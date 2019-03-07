@@ -16,7 +16,7 @@ function AboutMe() {
             Urged by a friend who programs, I started coding for fun and found a
             new passion. Shortly after, I decided to make a career shift and
             enrolled at DevMountain. I love being engaged in the whole
-            development process and seeing an asthetic, functional outcome.
+            development process and seeing an aesthetic, functional outcome.
           </p>
           <br />
           <p>
