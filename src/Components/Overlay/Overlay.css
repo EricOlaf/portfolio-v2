@@ -91,3 +91,7 @@
 .overlayImg:hover {
   background-color: transparent;
 }
+
+.hover-hand:hover{
+  cursor: pointer;
+}

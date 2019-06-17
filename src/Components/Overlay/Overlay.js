@@ -22,7 +22,7 @@ function Overlay(props) {
                   alt=""
                   className="olayPic"
                 />
-                <div className="olayInfo"><a href="mailto:olavesoneric@gmail.com">olavesoneric@gmail.com</a></div>
+                <div className="olayInfo"><a class="hover-hand" href="mailto:olavesoneric@gmail.com">olavesoneric@gmail.com</a></div>
               </div>
               <div className="olay phone">
                 <img
