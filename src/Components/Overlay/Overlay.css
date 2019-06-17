@@ -92,6 +92,11 @@
   background-color: transparent;
 }
 
+.hand-hover{
+  color: black;
+  decoration: none;
+}
+
 .hover-hand:hover{
   cursor: pointer;
 }
