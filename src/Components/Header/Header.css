@@ -87,6 +87,10 @@
   padding: 0 auto;
 }
 
+.arrow:hover{
+  cursor: pointer;
+}
+
 @media (min-width: 500px) {
   .header > #text {
     margin-left: 15vw;
