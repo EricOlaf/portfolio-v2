@@ -75,6 +75,18 @@
   cursor: pointer;
   border: rgb(211, 211, 211) solid 1px;
 }
+.center{
+  display: none;
+}
+
+.arrow{
+  height: 5rem;
+  width: 5rem;
+  z-index: 15;
+  margin-top: 20vh;
+  padding: 0 auto;
+}
+
 @media (min-width: 500px) {
   .header > #text {
     margin-left: 15vw;
@@ -103,5 +115,17 @@
     border: none;
     border-radius: 5px;
     margin-top: 2rem;
+  }
+  .center{
+    display: block;
+    text-align: center;
+    width: 70vw;
+  }
+  .arrow{
+    height: 5rem;
+    width: 5rem;
+    z-index: 15;
+    margin-top: 20vh;
+    padding: 0 auto;
   }
 }
