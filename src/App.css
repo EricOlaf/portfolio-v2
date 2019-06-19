@@ -40,7 +40,7 @@ button:focus {
 
 @media (min-width: 800px) {
   .h2-title{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 @keyframes headerbuttonAnimation {

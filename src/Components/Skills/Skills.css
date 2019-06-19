@@ -115,7 +115,14 @@
   object-fit: contain;
 }
 
-@media (max-width: 337px) {
+@media (max-width: 500px) {
+  .techSingle {
+    margin: .5rem;
+  }
+}
+
+
+@media (max-width: 500px) {
   .techSingle {
     font-family: "Open Sans";
     font-size: 0.8rem;
