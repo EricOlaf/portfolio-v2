@@ -7,7 +7,7 @@ function Experience() {
       <div className="insideRes">
         <h2 className="expTitle">CODING EXPERIENCE</h2>
         <div className="expBoth">
-          <a href="https://devmountain.com/">
+          <a href="https://devmountain.com/" target="_blank">
             <img
               className="devMtnPic"
               src="https://pbs.twimg.com/profile_images/648907414587072512/RSKdI5dQ.png"
@@ -23,7 +23,7 @@ function Experience() {
           </div>
         </div>
         <div className="expBoth">
-          <a href="https://devmountain.com/">
+          <a href="https://devmountain.com/" target="_blank">
             {" "}
             <img
               className="devMtnPic"
@@ -40,7 +40,7 @@ function Experience() {
           </div>
         </div>
         <div className="expBoth">
-          <a href="https://www.mizzenandmain.com/">
+          <a href="https://www.mizzenandmain.com/" target="_blank">
             {" "}
             <img
               className="devMtnPic"

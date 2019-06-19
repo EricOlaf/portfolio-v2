@@ -14,14 +14,14 @@ function RecentWork() {
           </p>
           <p className="repo infoOnMySite">
             View GitHub Repo{" "}
-            <a href="https://github.com/EricOlaf/raw-trails">here.</a>
+            <a href="https://github.com/EricOlaf/raw-trails" target="_blank">here.</a>
           </p>
           <p className="repo infoOnMySite">
-            Live example <a href="http://206.189.220.112:3005">here.</a>
+            Live example <a href="http://206.189.220.112:3005" target="_blank">here.</a>
           </p>
         </div>
 
-        <a href="https://github.com/EricOlaf/raw-trails">
+        <a href="https://github.com/EricOlaf/raw-trails" target="_blank">
           <img
             className="sitePic"
             src="https://res.cloudinary.com/rawtrails801/image/upload/v1548807359/Screen_Shot_2019-01-29_at_6.09.41_PM.png"
@@ -30,7 +30,7 @@ function RecentWork() {
         </a>
       </div>
       <div className="site two">
-        <a href="https://github.com/positivity-or-something/appy">
+        <a href="https://github.com/positivity-or-something/appy" target="_blank">
           <img
             className="sitePic"
             src="https://garrettyaworski.com/img/threeviews.jpg"
@@ -45,7 +45,7 @@ function RecentWork() {
           </p>
           <p className="repo infoOnMySite">
             View GitHub Repo{" "}
-            <a href="https://github.com/positivity-or-something/appy">here.</a>
+            <a href="https://github.com/positivity-or-something/appy" target="_blank">here.</a>
           </p>
         </div>
       </div>
