@@ -18,7 +18,7 @@ function Footer(props) {
             src="https://res.cloudinary.com/rawtrails801/image/upload/v1549401716/_DSC5514.jpg"
             alt=""
           />
-          <div className="contTitle">LET'S WORK TOGETHER</div>
+          <h3 className="contTitle">LET'S WORK TOGETHER</h3>
           <div className="contAb">
             <p>
               I'm a Full Stack developer with a thirst for knowledge and
@@ -39,16 +39,16 @@ function Footer(props) {
           </button>
         </div>
         <div className="contRight">
-          <div className="contTitle">FIND ME ON:</div>
+          <h3 className="contTitle">FIND ME ON:</h3>
           <div className="socMed">
-            <a href="https://www.linkedin.com/in/eric-olaveson-229b0a90">
+            <a href="https://www.linkedin.com/in/eric-olaveson-229b0a90" target="_blank">
               <img
                 className="socIcon linkedIn"
                 src="https://cdn1.iconfinder.com/data/icons/social-networks-3/512/linkedin-512.png"
                 alt=""
               />
             </a>
-            <a href="https://github.com/EricOlaf?tab=repositories">
+            <a href="https://github.com/EricOlaf?tab=repositories" target="_blank">
               <img className="socIcon gitHub" src={github} alt="" />
             </a>
           </div>

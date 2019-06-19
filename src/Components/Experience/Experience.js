@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="experience">
       <div className="insideRes">
-        <div className="expTitle">CODING EXPERIENCE</div>
+        <h2 className="expTitle">CODING EXPERIENCE</h2>
         <div className="expBoth">
           <a href="https://devmountain.com/">
             <img
@@ -15,11 +15,11 @@ function Experience() {
             />
           </a>
           <div className="expTextAll">
-            <div className="expEachTitle">DEVMOUNTAIN STUDENT</div>
-            <div className="expTextInfo">
+            <h3 className="expEachTitle">DEVMOUNTAIN STUDENT</h3>
+            <p className="expTextInfo">
               Completed 3-month intensive coursework to build foundation as a
               SERN stack developer with a base in Javascipt based programming.
-            </div>
+            </p>
           </div>
         </div>
         <div className="expBoth">
@@ -32,15 +32,15 @@ function Experience() {
             />
           </a>
           <div className="expTextAll">
-            <div className="expEachTitle">DEVMOUNTAIN VOLUNTEER</div>
-            <div className="expTextInfo">
+            <h3 className="expEachTitle">DEVMOUNTAIN VOLUNTEER</h3>
+            <p className="expTextInfo">
               Volunteer tutor at DevMountain. Time was spent discussing core
               concepts in JavaScript, React, Express, Node, and SQL.
-            </div>
+            </p>
           </div>
         </div>
         <div className="expBoth">
-          <a href="https://devmountain.com/">
+          <a href="https://www.mizzenandmain.com/">
             {" "}
             <img
               className="devMtnPic"
@@ -49,10 +49,10 @@ function Experience() {
             />
           </a>
           <div className="expTextAll">
-            <div className="expEachTitle">UI/UX INTERN AT MIZZEN+MAIN</div>
-            <div className="expTextInfo">
+            <h3 className="expEachTitle">UI/UX INTERN AT MIZZEN+MAIN</h3>
+            <p className="expTextInfo">
               Quickly learned liquid the templating language used in Shopify and developed best practices while writing code for Mizzen+Main's webiste.
-            </div>
+            </p>
           </div>
         </div>
       </div>

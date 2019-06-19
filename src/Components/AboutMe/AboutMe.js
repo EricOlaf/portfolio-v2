@@ -10,7 +10,7 @@ function AboutMe() {
         alt=""
       />
       <div className="aboutPageTextAll">
-        <div className="aboutPageTitle">ABOUT ME</div>
+        <h2 className="aboutPageTitle">ABOUT ME</h2>
         <div className="aboutPageText">
           <p>
             Urged by a friend who programs, I started coding for fun and found a

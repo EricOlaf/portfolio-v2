@@ -4,21 +4,21 @@ import "./RecentWork.css";
 function RecentWork() {
   return (
     <div className="recentwork">
-      <div className="sitesTitle">MY APPS</div>
+      <h2 className="sitesTitle">MY APPS</h2>
       <div className="site">
         <div className="siteExp seone">
-          <div className="siteName">RAW TRAILS</div>
-          <div className="infoOnMySite">
+          <h3 className="siteName">RAW TRAILS</h3>
+          <p className="infoOnMySite">
             A full-stack SERN website for adventure seekers to find and scheule
             the perfect guided outdoor vacation.
-          </div>
-          <div className="repo infoOnMySite">
+          </p>
+          <p className="repo infoOnMySite">
             View GitHub Repo{" "}
             <a href="https://github.com/EricOlaf/raw-trails">here.</a>
-          </div>
-          <div className="repo infoOnMySite">
+          </p>
+          <p className="repo infoOnMySite">
             Live example <a href="http://206.189.220.112:3005">here.</a>
-          </div>
+          </p>
         </div>
 
         <a href="https://github.com/EricOlaf/raw-trails">
@@ -38,15 +38,15 @@ function RecentWork() {
           />
         </a>
         <div className="siteExp setwo">
-          <div className="siteName">APPY</div>
-          <div className="infoOnMySite">
+          <h3 className="siteName">APPY</h3>
+          <p className="infoOnMySite">
             Social sedia app designed in React Native to uplift and encourage
             users
-          </div>
-          <div className="repo infoOnMySite">
+          </p>
+          <p className="repo infoOnMySite">
             View GitHub Repo{" "}
             <a href="https://github.com/positivity-or-something/appy">here.</a>
-          </div>
+          </p>
         </div>
       </div>
     </div>

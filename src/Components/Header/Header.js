@@ -3,7 +3,8 @@ import "./Header.css";
 
 function Header(props) {
   return (
-    <div className="header">
+    <header>
+      <div className="header">
       <img
         id="backgroudImg"
         src="https://res.cloudinary.com/rawtrails801/image/upload/v1549427681/RawTrails/IMG_1963.JPG.jpg"
@@ -21,6 +22,7 @@ function Header(props) {
         </button>
       </div>
     </div>
+    </header>
   );
 }
 
