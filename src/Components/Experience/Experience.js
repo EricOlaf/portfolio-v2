@@ -51,7 +51,7 @@ function Experience() {
           <div className="expTextAll">
             <h3 className="expEachTitle">UI/UX INTERN AT MIZZEN+MAIN</h3>
             <p className="expTextInfo">
-              Quickly learned liquid the templating language used in Shopify and developed best practices while writing code for Mizzen+Main's webiste.
+              Quickly learned Liquid, the templating language used in Shopify and developed best practices while writing code for Mizzen+Main's webiste.
             </p>
           </div>
         </div>

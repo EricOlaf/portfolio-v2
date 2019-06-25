@@ -30,7 +30,7 @@ function Header(props) {
             offset={-70}
             duration={500}
           >
-          <img  className="arrow" src="https://res.cloudinary.com/rawtrails801/image/upload/v1560972570/arrow-204-48.png" alt=""/>
+          <img  className="arrow" src="https://res.cloudinary.com/rawtrails801/image/upload/v1561488593/icons8-double-down-96.png" alt=""/>
           </Link>
         </div>
       </div>
