@@ -85,10 +85,12 @@
   z-index: 15;
   margin-top: 20vh;
   padding: 0 auto;
+  transition-duration: .3s;
 }
 
 .arrow:hover{
   cursor: pointer;
+  transform: scale(1.15);
 }
 
 @media (min-width: 500px) {
