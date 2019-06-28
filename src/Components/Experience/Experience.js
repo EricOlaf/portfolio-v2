@@ -17,7 +17,7 @@ function Experience() {
           <div className="expTextAll">
             <h3 className="expEachTitle">DEVMOUNTAIN STUDENT</h3>
             <p className="expTextInfo">
-              I completed the 3-month coursework intensive bootcamp to build a foundation as a
+              I completed the 3-month, coursework intensive, bootcamp to build a foundation as a
               JavaScript, SERN full-stack developer.
             </p>
           </div>
