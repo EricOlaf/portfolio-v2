@@ -14,7 +14,8 @@ function Header(props) {
       />
  
       <div id="text">
-        <h1 className="title">ERIC OLAVESON</h1>
+      <div className="headerAnimationLeft">
+      <h1 className="title">ERIC OLAVESON</h1>
         <p id="headerP">I design, build and maintain websites</p>
         <button
           onClick={() => {
@@ -23,6 +24,7 @@ function Header(props) {
         >
           CONTACT ME
         </button>
+      </div>
         <div className="center">
         <Link
             to="skills"

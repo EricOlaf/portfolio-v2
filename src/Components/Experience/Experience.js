@@ -34,7 +34,7 @@ function Experience() {
           <div className="expTextAll">
             <h3 className="expEachTitle">DEVMOUNTAIN VOLUNTEER</h3>
             <p className="expTextInfo">
-              Volunteer tutor at DevMountain. Time was spent discussing core
+              As a volunteer tutor at DevMountain my time was spent discussing and demonstrating core
               concepts in JavaScript, React, Express, Node, and SQL.
             </p>
           </div>
@@ -49,9 +49,9 @@ function Experience() {
             />
           </a>
           <div className="expTextAll">
-            <h3 className="expEachTitle">UI/UX INTERN AT MIZZEN+MAIN</h3>
+            <h3 className="expEachTitle">MIZZEN+MAIN UI/UX E-COMMERCE DEVELOPER INTERN</h3>
             <p className="expTextInfo">
-              Quickly learned Liquid, the templating language used in Shopify and developed best practices while writing code for Mizzen+Main's webiste.
+              I quickly learned Liquid, the templating language used in Shopify and developed best practices while writing code for Mizzen+Main's webiste.
             </p>
           </div>
         </div>
