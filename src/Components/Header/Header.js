@@ -35,7 +35,6 @@ function Header(props) {
           <img  className="arrow" src="https://res.cloudinary.com/rawtrails801/image/upload/v1561488593/icons8-double-down-96.png" alt=""/>
           </Link>
         </div>
-        <h3>This works!!!</h3>
       </div>
     </div>
     </header>
